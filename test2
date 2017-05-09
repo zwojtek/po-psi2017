@@ -1,0 +1,67 @@
+<!DOCTYPE HTML> 
+<html lang="pl-PL"> 
+<head>
+	<meta charset="UTF-8">
+	<title>Title strony</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="kontener">
+
+	<div id="naglowek">
+		<img src="baner.jpg" id="banner">
+		<div id="szukajka">
+			<form name="szukajka">
+				Szukaj<input type="text" size="30"/>
+			</form>
+		</div>
+		<div id="koszyk">
+			<a href=#>koszyk</a>
+		</div>
+		<div id="clear"></div>
+	</div>
+	
+	<div class="kolumna" id="menuBok">
+		<ul>
+			<li><a href=#>+kategorie</a></li>
+			<li><a href=#>+kategorie</a></li>
+			<li><a href=#>+kategorie</a></li>
+			<li><a href=#>+kategorie</a></li>
+			<li><a href=#>+kategorie</a></li>
+			<li><a href=#>+kategorie</a></li>
+			<li><a href=#>+kategorie</a></li>
+			<li><a href=#>+kategorie</a></li>
+			<li><a href=#>+kategorie</a></li>
+		</ul>
+	</div>
+	<div class="kolumna" id="centrum">
+		<iframe name="disp" id="framka" src="startowa.html"></iframe>
+	</div>
+	<div class="kolumna" id="menuBok">
+		<div>
+			<form name="logowanie">
+				<table>
+					<tr>
+						<td>login:</td>
+						<td><input type="text" size="12"/></td>
+					</tr>
+					<tr>
+						<td>hasło:</td>
+						<td><input type="text" size="12"/></td>
+					</tr>
+					<tr>
+						<td><input type="button" value="LogIn"></td>
+						<td><a href="rejestr.html" target="disp">Nie masz konta? Zarejestruj się!</a></td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</div>
+	
+	<div id="clear"></div>
+	<div id="stopka">Stopka</div>
+
+
+
+</div>
+</body>
